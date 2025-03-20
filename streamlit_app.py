@@ -30,7 +30,6 @@ st.sidebar.header("🔄 Refresh Data")
 # Define API URL
 API_URL = API_URL = "https://profitmax-api.onrender.com/pricing_optimization"
 
-
 # **Ensure Streamlit updates the product selection properly**
 if "df" not in st.session_state:
     st.session_state.df = None
